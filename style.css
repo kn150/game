@@ -1,0 +1,26 @@
+body {
+    font-size:30px;
+    text-align:center;
+    background-color: beige;
+}
+
+input {
+    font-size:30px;
+}
+
+.block {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    margin-bottom:0.5rem;
+    background-color: burlywood;
+    border-radius: 3px;
+}
+
+input[value="o"] {
+    color: red;
+}
+
+input[value="x"] {
+    color: blue;
+}
